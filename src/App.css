@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  background-color: #000813;
+}
+.cooldown{
+  background-color: #FFD60A;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 55px;
+  /* position: absolute; */
+  width: 100%;
+  height: 56px;
+
+
+}
+.launchtime{
+  width: 398px;
+  height: 27px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #001D3D;
+
+}
+.timer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 304px;
+  height: 40px;
+}
+.timerbox{
+  background-color: #000813;
+  color: #eaedf3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 67px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  /* Style=Gray, Size=Small, State=Default, Type=Outlined */
+
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 8px;
+gap: 4px;
+
+/* Tetriary Gray/gray 400 (Main) */
+border: 1px solid #4E5055;
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+}
+.logo{
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color: #FFD60A;
+  position:absolute;
+  margin-top: 58px;
+  margin-left: 11px;
+  position: absolute;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  justify-content: right;
+  display: flex;
+
+}
+.areyou{
+  text-transform: uppercase;
+  font-family: Bebas Neue;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  line-height: 200px;
+  
+  margin-top: 15vw;
+  margin-left: 5vw;
+  color: #FFFFFF;
+  /* position: absolute; */
+  /* width: 1958px;
+  height: 505px; */
+}
+.pump{
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 600px;
+  line-height: 450px;
+  /* or 3% */
+
+  color: #FFFFFF;
+  text-shadow: -5px -5px 0 #FFC329,  
+                5px -5px 0 #FFC329,
+               -5px 5px 0 #FFC329,
+                5px 5px 0 #FFC329;
+
+  /* text-shadow: 10px solid #FFC329; */
+
+}
+.description{
+  /* DO YOU MISS ON SOLANA A DOPE TOKEN LAUNCHPAD? YEAH WE GOT YOU. HERE IS THE SOLUTION. WE ARE IN THE SPACE SINCE 2015 AND KNOW WHAT A GOOD LAUNCHPAD NEEDS */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 100px;
+margin-left: 10vw;
+/* or 125% */
+
+color: #FFFFFF;
+
+
+}
+.title{
+  font-family: Bebas Neue;
+  font-size: 250px;
+  font-weight: 400;
+  line-height: 240px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
