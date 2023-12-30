@@ -61,9 +61,9 @@ export default function Home(){
                             </div>
 
                         </div>
-                        <button class='btn'>
-                        <p>JOIN THE $BULLY COMMUNITY</p>
-                        </button>
+                        <a class='btn' href="https://t.me/bullypad_sol" target="_blank">
+                            <p>JOIN THE $BULLY COMMUNITY</p>
+                        </a>
                     </div>
 
                 </div>
