@@ -1,6 +1,6 @@
 export default function About(){
     return(
-        <>
+        <div id="about">
             <div>
                 <p class="text-left p-2 text-[#FFFFFF]" style={{fontSize:"15vw",fontFamily:"Bebas Neue" , marginLeft:'5vw', lineHeight:'14vw'}}>BULLYPAD.IO</p>
                 <p class="description p-2 text-left">
@@ -24,6 +24,6 @@ export default function About(){
                 easy to use
                 </p>
             </div>
-        </>
+        </div>
     )
 }

@@ -1,4 +1,27 @@
+import React, { useState, useEffect } from 'react';
+
 export default function Home(){
+    let time = 116460;
+    const [days, setDays] = useState(0);
+    const [hours, setHours] = useState(0);
+    const [mins, setMins] = useState(0);
+    const [secs, setSecs] = useState(0);
+    const cowndown = (distance)=>{
+        setDays(Math.floor(distance / 86400));
+        setHours(Math.floor((distance % 86400) / 3600));
+        setMins(Math.floor((distance % 3600) / 60));
+        setSecs(Math.floor(distance % 60));
+    }
+    useEffect(() => {
+        let interval;
+    
+        interval = setInterval(() => {
+        cowndown(time);
+        time--;
+        }, 1000);
+    
+        return () => clearInterval(interval);
+      }, []);
     return(
         <div id="home">
             <div class="absolute flex flex-col justify-between w-full mt-1 h-[170vw] md:h-[150vw] sm:h-[170vw]">
@@ -24,16 +47,16 @@ export default function Home(){
                         <div class="h-[56px] flex items-center" style={{backgroundColor:"#FFD60A", padding: "20px 20px 20px 20px"}}>
                             <div class="timer flex items-center" >
                                 <box class="timerbox w-[50px]">
-                                    <span class="days">0</span> d
+                                    <span class="days">{days}</span> d
                                 </box>
                                 <box className="timerbox w-[50px]">
-                                    <span class="hours">0</span> h
+                                    <span class="hours">{hours}</span> h
                                 </box>
                                 <box className="timerbox w-[50px]">
-                                    <span class="minutes">0</span> m
+                                    <span class="minutes">{mins}</span> m
                                 </box>
                                 <box className="timerbox w-[50px]">
-                                    <span class="seconds">0</span> s
+                                    <span class="seconds">{secs}</span> s
                                 </box>
                             </div>
 

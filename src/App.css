@@ -50,6 +50,7 @@ box-sizing: border-box;
 /* Auto layout */
 display: flex;
 flex-direction: row;
+font-family: 'Bebas Neue';
 justify-content: center;
 align-items: center;
 padding: 6px 8px;
@@ -78,7 +79,7 @@ font-size: 1.5vw;
 
 .areyou{
   text-transform: uppercase;
-  font-family: Bebas Neue;
+  font-family: 'Bebas Neue';
   font-size: 15vw;
   font-style: normal;
   font-weight: 400;

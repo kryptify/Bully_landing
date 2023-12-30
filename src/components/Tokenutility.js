@@ -1,6 +1,6 @@
 export default function Utility(){
     return(
-        <div class="flex justify-center">
+        <div id="utility" class="flex justify-center">
             <div class="text-[#FFFFFF] absolute flex flex-col justify-between p-3 w-[80%]">
                 <p class="uppercase text-[15vw]" style={{fontFamily:"Bebas Neue", fontWeight:"400", lineHeight:"15vw", letterSpacing:"0em"}}>
                     THE UTILITY
