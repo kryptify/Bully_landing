@@ -2,7 +2,7 @@ export default function Tokendetails(){
     return(
         <div id="tokendatails" class="w-[1920px] h-[485px] flex-col justify-start items-center gap-[38px] inline-flex">
         <div class="self-stretch h-24 flex-col justify-center items-start gap-[50px] flex">
-          <div class="self-stretch h-px bg-zinc-800"></div>
+          <div class="self-stretch h-px w-full bg-zinc-800"></div>
           <div class="flex-col justify-center items-center inline-flex w-full">
             <div class="text-white text-[32px] font-semibold font-['Poppins'] uppercase leading-[45px]">Token DETAILS</div>
           </div>

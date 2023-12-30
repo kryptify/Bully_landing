@@ -2,7 +2,7 @@ export default function About(){
     return(
         <>
             <div>
-                <p class="text-left p-2 text-[#FFFFFF]" style={{fontSize:"250px",fontFamily:"Bebas Neue" , marginLeft:'10vw', lineHeight:'240px'}}>BULLYPAD.IO</p>
+                <p class="text-left p-2 text-[#FFFFFF]" style={{fontSize:"15vw",fontFamily:"Bebas Neue" , marginLeft:'5vw', lineHeight:'14vw'}}>BULLYPAD.IO</p>
                 <p class="description p-2 text-left">
                 DO YOU MISS ON SOLANA A DOPE TOKEN <br/>
                 LAUNCHPAD? YEAH WE GOT YOU. <br/>
