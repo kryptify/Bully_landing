@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Home(){
-    let time = 116460;
+    let time = 102060;
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [mins, setMins] = useState(0);
