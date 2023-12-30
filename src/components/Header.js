@@ -27,7 +27,7 @@ export default function Header(){
             </div>
             <div class='flex flex-col sm:flex-col md:flex-row justify-center sm:justify-center md:justify-between'>
                 <div class='logo flex mt-3 md:mt-[53px] justify-center sm:justify-center md:justify-start sm:mt-[20px]'>
-                    <img src="assets/logo.svg" style={{width: "125px", height: "115px"}} />
+                    <img src="assets/logo.svg" style={{width: "125px", height: "115px"}} alt=""/>
                     <p>BULLYPAD.IO</p>
                 </div>
                 <div class='items-center font-["Poppins"] flex flex-row justify-center text-[#FFFFFF] text-sm sm:text-sm md:text-xl' style={{fontWeight:"500px"}}>
@@ -49,18 +49,20 @@ export default function Header(){
                 <div class="p-2 flex bg-[#FFC300] space-x-3 rounded">
                     {/* <img src="assets/wallet.png" class="">
                     </img> */}
-                    <p>GET AIRDROP</p>
+                    <a href="https://zealy.io/c/bullypad">
+                        <p>GET AIRDROP</p>
+                    </a>
                 </div>
                 </div>
 
                 <div class="hidden sm:block">
                     <div class='flex items-center p-2 h-full'>
-                        <button>
-                            <img src="assets/telegram.png" class="w-[100px] h-[107px] p-1"></img>
-                        </button>
-                        <button>
-                        <img src="assets/twitter.png" class="w-[100px] h-[107px] p-1"></img>
-                        </button>
+                        <a href="https://t.me/bullypad_sol">
+                            <img src="assets/telegram.png" class="w-[100px] h-[107px] p-1" alt=""></img>
+                        </a>
+                        <a href="https://twitter.com/bullysolana">
+                        <img src="assets/twitter.png" class="w-[100px] h-[107px] p-1" alt=""></img>
+                        </a>
                     </div>
                 </div>
             </div>

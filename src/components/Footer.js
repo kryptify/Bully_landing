@@ -18,16 +18,14 @@ const Footer = () => {
         <div className="w-full">
             <div className="flex md:justify-end sm:justify-center justify-center mt-5 gap-3 mb-9">
             <div className="icon-image">
-                <img src="/assets/link.svg" className="w-6 h-6" />
+                <a href="https://twitter.com/bullysolana">
+                    <img src="/assets/twitter.svg" className="w-6 h-6" />
+                </a>
             </div>
             <div className="icon-image">
-                <img src="/assets/twitter.svg" className="w-6 h-6" />
-            </div>
-            <div className="icon-image">
-                <img src="/assets/tele.svg" className="w-6 h-6" />
-            </div>
-            <div className="icon-image">
-                <img src="/assets/instagram.svg" className="w-6 h-6" />
+                <a href="https://t.me/bullypad_sol">
+                    <img src="/assets/tele.svg" className="w-6 h-6" />
+                </a>
             </div>
             </div>
         </div>
