@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  background-color: #000813;
+}
+.cooldown{
+  background-color: #FFD60A;
+  /* Auto layout */
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 55px;
+  /* position: absolute; */
+
+}
+.launchtime{
+  width: 20vw;
+  height: 27px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  text-transform: uppercase;
+
+}
+.timer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  height: 40px;
+}
+.timerbox{
+  background-color: #000813;
+  color: #eaedf3;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  /* Style=Gray, Size=Small, State=Default, Type=Outlined */
+
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+font-family: 'Bebas Neue';
+justify-content: center;
+align-items: center;
+padding: 6px 8px;
+gap: 4px;
+
+/* Tetriary Gray/gray 400 (Main) */
+border: 1px solid #4E5055;
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+
+}
+.logo{
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  color: #FFD60A;
+  margin-left: 11px;
+}
+
+.areyou{
+  text-transform: uppercase;
+  font-family: 'Bebas Neue';
+  font-size: 15vw;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 12vw;
+  
+  margin-top: 10vw;
+  margin-left: 5vw;
+  color: #FFFFFF;
+  /* position: absolute; */
+  /* width: 1958px;
+  height: 505px; */
+}
+
+.description{
+  /* DO YOU MISS ON SOLANA A DOPE TOKEN LAUNCHPAD? YEAH WE GOT YOU. HERE IS THE SOLUTION. WE ARE IN THE SPACE SINCE 2015 AND KNOW WHAT A GOOD LAUNCHPAD NEEDS */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 4.5vw;
+line-height: 6vw;
+margin-left: 5vw;
+/* or 125% */
+
+color: #FFFFFF;
+
+
+}
+.title{
+  font-family: Bebas Neue;
+  font-size: 15vw;
+  font-weight: 400;
+  line-height: 13vw;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.icon-image {
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 5px;
+}
