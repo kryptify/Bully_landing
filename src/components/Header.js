@@ -53,29 +53,29 @@ export default function Header(){
                     <img src="assets/logo.svg" style={{width: "125px", height: "115px"}} alt=""/>
                     <p>BULLYPAD.IO</p>
                 </div>
-                <div class='items-center font-["Poppins"] flex flex-row justify-center text-[#FFFFFF] text-sm sm:text-sm md:text-xl' style={{fontWeight:"500px"}}>
-                <a class="p-3" href="#about">
-                    What is BULLY?
-                </a>
-                <a class="p-3 hidden sm:block" href="#roadmap">
-                    Growth Potential
-                </a>
-                <a class="p-3 hidden sm:block" href="#">
-                    Whitepaper
-                </a>
-                <a class="p-3" href="#economics">
-                    Tokenomics
-                </a>
-                <a class="p-3 hidden sm:block" href="#utility">
-                    How to Buy
-                </a>
-                <div class="p-2 flex bg-[#FFC300] space-x-3 rounded">
-                    {/* <img src="assets/wallet.png" class="">
-                    </img> */}
-                    <a href="https://zealy.io/c/bullypad" target="_blank">
-                        <p>GET AIRDROP</p>
+                <div class='items-center font-["Poppins"] flex flex-row justify-center text-[#FFFFFF] text-[10px] sm:text-[10px] md:text-[1.2vw]' style={{fontWeight:"500px"}}>
+                    <a class="p-3" href="#about">
+                        What is BULLY?
                     </a>
-                </div>
+                    <a class="p-3 hidden sm:block" href="#roadmap">
+                        Growth Potential
+                    </a>
+                    <a class="p-3 hidden sm:block" href="#">
+                        Whitepaper
+                    </a>
+                    <a class="p-3" href="#economics">
+                        Tokenomics
+                    </a>
+                    <a class="p-3 hidden sm:block" href="#utility">
+                        How to Buy
+                    </a>
+                    <div class="p-2 flex bg-[#FFC300] space-x-1 rounded items-center">
+                        <img src="assets/icons/wallet.svg" class="w-[18px] h-[18px]">
+                        </img>
+                        <a href="https://zealy.io/c/bullypad" target="_blank">
+                            <p>GET AIRDROP</p>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="hidden sm:block">

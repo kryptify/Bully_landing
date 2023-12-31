@@ -32,7 +32,7 @@ function App() {
       <About />
       <Roadmap />
       <Economics />
-      {/* <Tokendetails /> */}
+      <Tokendetails />
       <Utility /> 
       <Footer />
     </div>
